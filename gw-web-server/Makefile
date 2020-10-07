@@ -12,7 +12,7 @@ DEPENDS+=	gw-base>=1.0:../../gw/gw-base
 # WEB SERVER
 DEPENDS+=	fcgiwrap>=1.1:../../www/fcgiwrap
 DEPENDS+=	nginx>=1.18:../../www/nginx
-DEPENDS+=	spawn-fcgi>=3.22:../../www/spawn-fcgi
+DEPENDS+=	spawn-fcgi>=1.6.4:../../www/spawn-fcgi
 
 # CERTS
 DEPENDS+=	acmesh>=2.8.6:../../security/acmesh
