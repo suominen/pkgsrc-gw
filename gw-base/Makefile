@@ -55,4 +55,5 @@ DEPENDS+=	watch>=3.2.6:../../misc/watch
 
 META_PACKAGE=	yes
 
+.include "../../lang/python/pyversion.mk" # for PYPKGPREFIX
 .include "../../mk/bsd.pkg.mk"
