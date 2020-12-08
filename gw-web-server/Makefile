@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-web-server-1.0
+DISTNAME=	gw-web-server-1.1
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -15,7 +15,7 @@ DEPENDS+=	nginx>=1.18:../../www/nginx
 DEPENDS+=	spawn-fcgi>=1.6.4:../../www/spawn-fcgi
 
 # CERTS
-DEPENDS+=	acmesh>=2.8.6:../../security/acmesh
+DEPENDS+=	acmesh>=2.8.7:../../security/acmesh
 
 META_PACKAGE=	yes
 
