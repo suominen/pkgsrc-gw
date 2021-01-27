@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-dev-1.2
+DISTNAME=	gw-dev-1.3
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -19,6 +19,7 @@ DEPENDS+=	pkg_chk>=2.0:../../pkgtools/pkg_chk
 DEPENDS+=	pkgdiff>=1.9:../../pkgtools/pkgdiff
 DEPENDS+=	pkglint>=20.3.1:../../pkgtools/pkglint
 DEPENDS+=	sandboxctl>=1.1:../../sysutils/sandboxctl
+DEPENDS+=	unidiff>=1.0:../../devel/unidiff
 
 # REPOSITORY TOOLS
 # reposurgeon or cvs-fast-export needs coreutils for some command...
