@@ -1,0 +1,6 @@
+The gw-mail meta-package provides the software for reading electronic
+mail, using other packages from pkgsrc.
+
+This package does not contain anything by itself.  Its sole purpose is
+to require dependencies so users can install this package only and have
+all the other packages pulled in by the package dependency mechanism.
