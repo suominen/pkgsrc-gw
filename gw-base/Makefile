@@ -53,6 +53,13 @@ DEPENDS+=	osname>=2.0:../../sysutils/osname
 #DEPENDS+=	tcptraceroute6>=1.0:../../net/tcptraceroute6
 DEPENDS+=	watch>=3.2.6:../../misc/watch
 
+# PACKAGE MANAGEMENT
+#
+# - We don't always necessarily want this.
+# - Install manually on systems where it is wanted.
+#
+#DEPENDS+=	pkgin>=20.12.1:../../pkgtools/pkgin
+
 META_PACKAGE=	yes
 
 .include "../../lang/python/pyversion.mk" # for PYPKGPREFIX
