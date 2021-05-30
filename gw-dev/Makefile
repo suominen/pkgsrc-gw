@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-dev-1.3
+DISTNAME=	gw-dev-1.4
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -10,6 +10,7 @@ COMMENT=	Development environment tools
 DEPENDS+=	gw-base>=1.0:../../gw/gw-base
 
 # DEVELOPMENT TOOLS
+DEPENDS+=	autoconf>=2.71:../../devel/autoconf
 DEPENDS+=	automake>=1.16:../../devel/automake
 DEPENDS+=	digest>=20190127:../../pkgtools/digest
 DEPENDS+=	gettext-m4>=0.21:../../devel/gettext-m4
