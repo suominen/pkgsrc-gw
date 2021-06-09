@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-1.1
+DISTNAME=	gw-base-2.0
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 

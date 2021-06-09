@@ -1,13 +1,13 @@
 # $NetBSD$
 
-DISTNAME=	gw-dev-1.5
+DISTNAME=	gw-dev-2.0
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
 MAINTAINER=	pkgsrc-maintainer@global-wire.fi
 COMMENT=	Development environment tools
 
-DEPENDS+=	gw-base>=1.0:../../gw/gw-base
+DEPENDS+=	gw-base>=2.0:../../gw/gw-base
 
 # DEVELOPMENT TOOLS
 DEPENDS+=	autoconf>=2.71:../../devel/autoconf
