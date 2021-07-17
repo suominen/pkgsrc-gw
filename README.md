@@ -3,7 +3,7 @@ Local packages for pkgsrc
 
 ```
 cd /usr/pkgsrc
-git clone https://github.com/suominen/pkgsrc-gw zz
+git clone https://github.com/suominen/pkgsrc-gw.git zz
 ```
 
 Using category `zz` produces less trouble with `pkg_chk` installing
