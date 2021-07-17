@@ -7,7 +7,7 @@ MASTER_SITES=	# empty
 MAINTAINER=	pkgsrc-maintainer@global-wire.fi
 COMMENT=	Web server environment
 
-DEPENDS+=	gw-base>=2.0:../../gw/gw-base
+DEPENDS+=	gw-base>=2.0:../../zz/gw-base
 
 # WEB SERVER
 DEPENDS+=	fcgiwrap>=1.1:../../www/fcgiwrap
