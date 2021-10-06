@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-dev-2.0
+DISTNAME=	gw-dev-2.1
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -15,6 +15,7 @@ DEPENDS+=	automake>=1.16:../../devel/automake
 DEPENDS+=	digest>=20190127:../../pkgtools/digest
 DEPENDS+=	gettext-m4>=0.21:../../devel/gettext-m4
 DEPENDS+=	libkver>=0.7.2:../../pkgtools/libkver
+DEPENDS+=	lintpkgsrc>=4.96:../../pkgtools/lintpkgsrc
 DEPENDS+=	mercurial>=5.5:../../devel/mercurial
 DEPENDS+=	pkgdiff>=1.9:../../pkgtools/pkgdiff
 DEPENDS+=	pkglint>=20.3.1:../../pkgtools/pkglint
