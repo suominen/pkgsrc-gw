@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-dev-2.1
+DISTNAME=	gw-dev-2.2
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -19,6 +19,7 @@ DEPENDS+=	lintpkgsrc>=4.96:../../pkgtools/lintpkgsrc
 DEPENDS+=	mercurial>=5.5:../../devel/mercurial
 DEPENDS+=	pkgdiff>=1.9:../../pkgtools/pkgdiff
 DEPENDS+=	pkglint>=20.3.1:../../pkgtools/pkglint
+DEPENDS+=	revbump>=2.15:../../pkgtools/revbump
 DEPENDS+=	sandboxctl>=1.1:../../sysutils/sandboxctl
 DEPENDS+=	unidiff>=1.0:../../devel/unidiff
 
