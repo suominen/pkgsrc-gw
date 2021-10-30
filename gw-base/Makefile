@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-2.0
+DISTNAME=	gw-base-2.1
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -55,10 +55,7 @@ DEPENDS+=	watch>=3.2.6:../../misc/watch
 
 # PACKAGE MANAGEMENT
 #
-# - We don't always necessarily want this.
-# - Install manually on systems where it is wanted.
-#
-#DEPENDS+=	pkgin>=20.12.1:../../pkgtools/pkgin
+DEPENDS+=	pkgin>=21.10.1:../../pkgtools/pkgin
 
 META_PACKAGE=	yes
 
