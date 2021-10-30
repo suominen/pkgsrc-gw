@@ -1,11 +1,11 @@
 # $NetBSD$
 
-DISTNAME=	gw-mail-2.0
+DISTNAME=	gw-mail-2.1
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
 MAINTAINER=	pkgsrc-maintainer@global-wire.fi
-COMMENT=	Development environment tools
+COMMENT=	Tools for interactive email use
 
 DEPENDS+=	gw-base>=2.0:../../zz/gw-base
 
