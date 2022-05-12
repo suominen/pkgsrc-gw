@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-2.3
+DISTNAME=	gw-base-2.4
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -22,9 +22,7 @@ DEPENDS+=	pkg_alternatives>=1.7:../../pkgtools/pkg_alternatives
 DEPENDS+=	jq>=1.6:../../devel/jq
 DEPENDS+=	par>=1.53:../../textproc/par
 DEPENDS+=	the_silver_searcher>=2.2:../../textproc/the_silver_searcher
-
-# for yq / y2j / j2y
-DEPENDS+=	${PYPKGPREFIX}-yaml>=5.3.1:../../textproc/py-yaml
+DEPENDS+=	yq>=2.14:../../textproc/yq
 
 # BASIC TOOLS
 DEPENDS+=	screen>=4.8:../../misc/screen
