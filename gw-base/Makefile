@@ -6,6 +6,7 @@ MASTER_SITES=	# empty
 
 MAINTAINER=	pkgsrc-maintainer@global-wire.fi
 COMMENT=	Basic system environment
+LICENSE=	2-clause-bsd
 
 # ESSENTIAL
 DEPENDS+=	bash-completion>=2.8:../../shells/bash-completion

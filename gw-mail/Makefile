@@ -6,6 +6,7 @@ MASTER_SITES=	# empty
 
 MAINTAINER=	pkgsrc-maintainer@global-wire.fi
 COMMENT=	Tools for interactive email use
+LICENSE=	2-clause-bsd
 
 DEPENDS+=	gw-base>=2.0:../../zz/gw-base
 
