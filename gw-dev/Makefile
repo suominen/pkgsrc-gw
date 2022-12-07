@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-dev-2.2
+DISTNAME=	gw-dev-2.3
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -23,6 +23,8 @@ DEPENDS+=	pkglint>=20.3.1:../../pkgtools/pkglint
 DEPENDS+=	revbump>=2.15:../../pkgtools/revbump
 DEPENDS+=	sandboxctl>=1.1:../../sysutils/sandboxctl
 DEPENDS+=	unidiff>=1.0:../../devel/unidiff
+
+DEPENDS+=	gnupg2>=2.2.40:../../security/gnupg2
 
 # PACKAGING TOOLS
 #
