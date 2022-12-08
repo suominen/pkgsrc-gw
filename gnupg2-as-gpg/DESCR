@@ -1,0 +1,7 @@
+The gnupg2-as-gpg meta-package provides a gpg command that actually
+runs gpg2 from the security/gnupg2 package.  This is achieved by
+providing the necessary meta-data for pkg_alternatives(8) from the
+pkgtools/pkg_alternatives package.
+
+The pkgtools/pkg_alternatives package must be also installed, but
+this package intentionally does not depend on it.
