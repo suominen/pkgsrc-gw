@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-2.5
+DISTNAME=	gw-base-2.6
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -20,6 +20,7 @@ DEPENDS+=	rsync>=3.2.3:../../net/rsync
 
 DEPENDS+=	pkg_alternatives>=1.7:../../pkgtools/pkg_alternatives
 
+DEPENDS+=	colorless>=107:../../misc/colorless
 DEPENDS+=	jq>=1.6:../../devel/jq
 DEPENDS+=	par>=1.53:../../textproc/par
 DEPENDS+=	the_silver_searcher>=2.2:../../textproc/the_silver_searcher
