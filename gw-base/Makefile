@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-2.7.1
+DISTNAME=	gw-base-2.7.2
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -39,12 +39,11 @@ DEPENDS+=	procmail>=3.22:../../mail/procmail
 #DEPENDS+=	transmission>=3.0:../../net/transmission
 
 # DEVELOPMENT TOOLS
-#DEPENDS+=	git>=2.34:../../devel/git
-DEPENDS+=	git-base>=2.39.1:../../devel/git-base
+DEPENDS+=	git>=2.39.1:../../devel/git
 DEPENDS+=	perl>=5.30:../../lang/perl5
 DEPENDS+=	${PYPKGPREFIX}-pip>=20:../../devel/py-pip
 
-#DEPENDS+=	tig>=2.5.7:../../devel/tig
+DEPENDS+=	tig>=2.5.7:../../devel/tig
 
 # for GitHub
 DEPENDS+=	gh>=2.3.0:../../net/gh
