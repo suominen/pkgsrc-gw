@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-web-server-2.0
+DISTNAME=	gw-web-server-2.1
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -16,8 +16,9 @@ DEPENDS+=	nginx>=1.18:../../www/nginx
 DEPENDS+=	spawn-fcgi>=1.6.4:../../www/spawn-fcgi
 
 # CERTS
-DEPENDS+=	acmesh>=2.8.7:../../security/acmesh
+DEPENDS+=	${PYPKGPREFIX}-certbot>=2.6.0:../../security/py-certbot
 
 META_PACKAGE=	yes
 
+.include "../../lang/python/pyversion.mk" # for PYPKGPREFIX
 .include "../../mk/bsd.pkg.mk"
