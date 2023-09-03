@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-2.7.2
+DISTNAME=	gw-base-2.8
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -25,6 +25,8 @@ DEPENDS+=	jq>=1.6:../../devel/jq
 DEPENDS+=	par>=1.53:../../textproc/par
 DEPENDS+=	the_silver_searcher>=2.2:../../textproc/the_silver_searcher
 DEPENDS+=	yq>=2.14:../../textproc/yq
+
+DEPENDS+=	socat>=1.7.4.4:../../net/socat
 
 # BASIC TOOLS
 DEPENDS+=	screen>=4.8:../../misc/screen
