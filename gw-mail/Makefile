@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-mail-2.5
+DISTNAME=	gw-mail-2.6
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -13,6 +13,7 @@ DEPENDS+=	gw-base>=2.0:../../zz/gw-base
 DEPENDS+=	gnupg2-as-gpg>=1.0:../../zz/gnupg2-as-gpg
 DEPENDS+=	lynx>=2.8.9:../../www/lynx
 DEPENDS+=	mutt>=2.0.7:../../mail/mutt
+DEPENDS+=	nmh>=1.8:../../mail/nmh
 
 META_PACKAGE=	yes
 
