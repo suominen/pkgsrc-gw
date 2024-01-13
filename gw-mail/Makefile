@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-mail-2.6
+DISTNAME=	gw-mail-2.7
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
