@@ -14,6 +14,7 @@ DEPENDS+=	gnupg2-as-gpg>=1.0:../../zz/gnupg2-as-gpg
 DEPENDS+=	lynx>=2.8.9:../../www/lynx
 DEPENDS+=	mutt>=2.0.7:../../mail/mutt
 DEPENDS+=	nmh>=1.8:../../mail/nmh
+DEPENDS+=	rspamd>=3.7.5:../../mail/rspamd
 
 META_PACKAGE=	yes
 
