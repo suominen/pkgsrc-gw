@@ -19,4 +19,5 @@ DEPENDS+=	rspamd>=3.7.5:../../mail/rspamd
 
 META_PACKAGE=	yes
 
+.include "../../lang/python/pyversion.mk" # for PYPKGPREFIX
 .include "../../mk/bsd.pkg.mk"
