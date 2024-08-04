@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-3.1
+DISTNAME=	gw-base-3.2
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -52,7 +52,6 @@ DEPENDS+=	tig>=2.5.7:../../devel/tig
 DEPENDS+=	gh>=2.3.0:../../net/gh
 
 # CONVENIENCE TOOLS
-DEPENDS+=	curl>=7.72:../../www/curl
 DEPENDS+=	htop>=2.2:../../sysutils/htop
 DEPENDS+=	mtr>=0.93:../../net/mtr
 DEPENDS+=	netname>=2.2:../../net/netname
@@ -60,6 +59,7 @@ DEPENDS+=	osname>=2.0:../../sysutils/osname
 #DEPENDS+=	remind>=3.2:../../time/remind
 #DEPENDS+=	tcptraceroute6>=1.0:../../net/tcptraceroute6
 DEPENDS+=	watch>=3.2.6:../../misc/watch
+DEPENDS+=	wcurl>=2024.07.10:../../www/wcurl
 
 # Mainly for py-postfix-mta-sts-resolver
 DEPENDS+=	daemond>=1.0:../../sysutils/daemond
