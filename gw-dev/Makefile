@@ -20,6 +20,7 @@ DEPENDS+=	lintpkgsrc>=4.96:../../pkgtools/lintpkgsrc
 DEPENDS+=	mercurial>=5.5:../../devel/mercurial
 DEPENDS+=	pkgdiff>=1.9:../../pkgtools/pkgdiff
 DEPENDS+=	pkglint>=20.3.1:../../pkgtools/pkglint
+#DEPENDS+=	${PYPKGPREFIX}-pipenv>=2023.9.1:../../devel/py-pipenv
 DEPENDS+=	revbump>=2.15:../../pkgtools/revbump
 DEPENDS+=	sandboxctl>=1.1:../../sysutils/sandboxctl
 DEPENDS+=	unidiff>=1.0:../../devel/unidiff
@@ -45,4 +46,5 @@ DEPENDS+=	gnupg2-as-gpg>=1.0:../../zz/gnupg2-as-gpg
 
 META_PACKAGE=	yes
 
+.include "../../lang/python/pyversion.mk" # for PYPKGPREFIX
 .include "../../mk/bsd.pkg.mk"
