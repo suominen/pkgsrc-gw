@@ -45,6 +45,7 @@ DEPENDS+=	procmail>=3.22:../../mail/procmail
 DEPENDS+=	git>=2.39.1:../../devel/git
 DEPENDS+=	perl>=5.30:../../lang/perl5
 DEPENDS+=	${PYPKGPREFIX}-pip>=20:../../devel/py-pip
+#DEPENDS+=	${PYPKGPREFIX}-pipx>=1.1.0:../../devel/py-pipx
 
 DEPENDS+=	tig>=2.5.7:../../devel/tig
 
