@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-3.6
+DISTNAME=	gw-base-3.6.1
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -33,7 +33,7 @@ DEPENDS+=	yq>=2.14:../../textproc/yq
 DEPENDS+=	socat>=1.7.4.4:../../net/socat
 
 # BASIC TOOLS
-DEPENDS+=	screen>=4.8:../../misc/screen
+DEPENDS+=	screen>=4.8:../../misc/screen4
 DEPENDS+=	mosh>=1.3.2:../../net/mosh
 
 # INFRASTRUCTURE
