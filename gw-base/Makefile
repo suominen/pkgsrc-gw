@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-3.5
+DISTNAME=	gw-base-3.6
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -67,6 +67,9 @@ DEPENDS+=	wcurl>=2024.07.10:../../www/wcurl
 
 # Mainly for py-postfix-mta-sts-resolver
 DEPENDS+=	daemond>=1.0:../../sysutils/daemond
+
+# Post Quantum Cryptography
+DEPENDS+=	oqs-provider>=0.8:../../security/oqs-provider
 
 # PACKAGE MANAGEMENT
 #
