@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-3.6.1
+DISTNAME=	gw-base-3.6.2
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -63,7 +63,7 @@ DEPENDS+=	osname>=2.0:../../sysutils/osname
 #DEPENDS+=	remind>=3.2:../../time/remind
 #DEPENDS+=	tcptraceroute6>=1.0:../../net/tcptraceroute6
 DEPENDS+=	watch>=3.2.6:../../misc/watch
-DEPENDS+=	wcurl>=2024.07.10:../../www/wcurl
+DEPENDS+=	curl>=8.14.0:../../www/curl
 
 # Mainly for py-postfix-mta-sts-resolver
 DEPENDS+=	daemond>=1.0:../../sysutils/daemond
