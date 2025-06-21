@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-3.6.2
+DISTNAME=	gw-base-3.6.3
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -51,6 +51,9 @@ DEPENDS+=	${PYPKGPREFIX}-pip>=20:../../devel/py-pip
 #DEPENDS+=	${PYPKGPREFIX}-pipx>=1.1.0:../../devel/py-pipx
 
 DEPENDS+=	tig>=2.5.7:../../devel/tig
+
+# UTILITIES
+DEPENDS+=	${PYPKGPREFIX}-netaddr>=1.3.0:../../net/py-netaddr
 
 # for GitHub
 DEPENDS+=	gh>=2.3.0:../../net/gh
