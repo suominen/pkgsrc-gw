@@ -26,7 +26,7 @@ DEPENDS+=	unidiff>=1.0:../../devel/unidiff
 
 # MERCURIAL
 DEPENDS+=	mercurial>=6.9.4:../../devel/mercurial
-DEPENDS+=	py-hg-evolve>=11.1.8:../../devel/py-hg-evolve
+DEPENDS+=	${PYPKGPREFIX}-hg-evolve>=11.1.8:../../devel/py-hg-evolve
 
 DEPENDS+=	gnupg2-as-gpg>=1.0:../../zz/gnupg2-as-gpg
 
