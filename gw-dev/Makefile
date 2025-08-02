@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-dev-2.5
+DISTNAME=	gw-dev-2.6
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -17,13 +17,16 @@ DEPENDS+=	digest>=20190127:../../pkgtools/digest
 DEPENDS+=	gettext-m4>=0.21:../../devel/gettext-m4
 DEPENDS+=	libkver>=0.7.2:../../pkgtools/libkver
 DEPENDS+=	lintpkgsrc>=4.96:../../pkgtools/lintpkgsrc
-DEPENDS+=	mercurial>=5.5:../../devel/mercurial
 DEPENDS+=	pkgdiff>=1.9:../../pkgtools/pkgdiff
 DEPENDS+=	pkglint>=20.3.1:../../pkgtools/pkglint
 #DEPENDS+=	${PYPKGPREFIX}-pipenv>=2023.9.1:../../devel/py-pipenv
 DEPENDS+=	revbump>=2.15:../../pkgtools/revbump
 DEPENDS+=	sandboxctl>=1.1:../../sysutils/sandboxctl
 DEPENDS+=	unidiff>=1.0:../../devel/unidiff
+
+# MERCURIAL
+DEPENDS+=	mercurial>=6.9.4:../../devel/mercurial
+DEPENDS+=	py-hg-evolve>=11.1.8:../../devel/py-hg-evolve
 
 DEPENDS+=	gnupg2-as-gpg>=1.0:../../zz/gnupg2-as-gpg
 
