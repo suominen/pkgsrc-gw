@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-web-server-2.1
+DISTNAME=	gw-web-server-2.2
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -12,7 +12,7 @@ DEPENDS+=	gw-base>=2.0:../../zz/gw-base
 
 # WEB SERVER
 DEPENDS+=	fcgiwrap>=1.1:../../www/fcgiwrap
-DEPENDS+=	nginx>=1.18:../../www/nginx
+DEPENDS+=	nginx{,-devel}>=1.28:../../www/nginx
 DEPENDS+=	spawn-fcgi>=1.6.4:../../www/spawn-fcgi
 
 # CERTS
