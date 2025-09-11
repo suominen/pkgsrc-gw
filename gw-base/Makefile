@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-3.6.4
+DISTNAME=	gw-base-3.7
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -29,6 +29,8 @@ DEPENDS+=	jq>=1.6:../../devel/jq
 DEPENDS+=	par>=1.53:../../textproc/par
 DEPENDS+=	ripgrep>=14.1.0:../../textproc/ripgrep
 DEPENDS+=	yq>=2.14:../../textproc/yq
+
+DEPENDS+=	brotli>=1.1.0:../../archivers/brotli
 
 DEPENDS+=	socat>=1.7.4.4:../../net/socat
 
@@ -59,6 +61,7 @@ DEPENDS+=	${PYPKGPREFIX}-netaddr>=1.3.0:../../net/py-netaddr
 DEPENDS+=	gh>=2.3.0:../../net/gh
 
 # CONVENIENCE TOOLS
+DEPENDS+=	btop>=2.2:../../sysutils/btop
 DEPENDS+=	htop>=2.2:../../sysutils/htop
 DEPENDS+=	mtr>=0.93:../../net/mtr
 DEPENDS+=	netname>=2.2:../../net/netname
