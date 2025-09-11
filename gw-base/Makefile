@@ -61,7 +61,7 @@ DEPENDS+=	${PYPKGPREFIX}-netaddr>=1.3.0:../../net/py-netaddr
 DEPENDS+=	gh>=2.3.0:../../net/gh
 
 # CONVENIENCE TOOLS
-DEPENDS+=	btop>=2.2:../../sysutils/btop
+DEPENDS+=	btop>=1.4.4:../../sysutils/btop
 DEPENDS+=	htop>=2.2:../../sysutils/htop
 DEPENDS+=	mtr>=0.93:../../net/mtr
 DEPENDS+=	netname>=2.2:../../net/netname
