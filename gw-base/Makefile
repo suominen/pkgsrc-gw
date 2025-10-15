@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-3.7
+DISTNAME=	gw-base-3.8
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -14,9 +14,11 @@ DEPENDS+=	bash>=5.0:../../shells/bash
 DEPENDS+=	tcsh>=6.22:../../shells/tcsh
 DEPENDS+=	zsh>=5.8:../../shells/zsh
 
-DEPENDS+=	sudo>=1.8.31:../../security/sudo
+DEPENDS+=	sudo>=1.9.17:../../security/sudo
 
+DEPENDS+=	mosh>=1.3.2:../../net/mosh
 DEPENDS+=	rsync>=3.2.3:../../net/rsync
+DEPENDS+=	socat>=1.7.4.4:../../net/socat
 
 DEPENDS+=	pkg_alternatives>=1.7:../../pkgtools/pkg_alternatives
 
@@ -31,12 +33,7 @@ DEPENDS+=	ripgrep>=14.1.0:../../textproc/ripgrep
 DEPENDS+=	yq>=2.14:../../textproc/yq
 
 DEPENDS+=	brotli>=1.1.0:../../archivers/brotli
-
-DEPENDS+=	socat>=1.7.4.4:../../net/socat
-
-# BASIC TOOLS
-DEPENDS+=	screen>=4.8:../../misc/screen4
-DEPENDS+=	mosh>=1.3.2:../../net/mosh
+DEPENDS+=	curl>=8.14.0:../../www/curl
 
 # INFRASTRUCTURE
 DEPENDS+=	ca-certificates>=20200601:../../security/ca-certificates
@@ -51,7 +48,6 @@ DEPENDS+=	git>=2.39.1:../../devel/git
 DEPENDS+=	perl>=5.30:../../lang/perl5
 DEPENDS+=	${PYPKGPREFIX}-pip>=20:../../devel/py-pip
 DEPENDS+=	${PYPKGPREFIX}-pipx>=1.7.1:../../devel/py-pipx
-
 DEPENDS+=	tig>=2.5.7:../../devel/tig
 
 # UTILITIES
@@ -69,7 +65,6 @@ DEPENDS+=	osname>=2.0:../../sysutils/osname
 #DEPENDS+=	remind>=3.2:../../time/remind
 #DEPENDS+=	tcptraceroute6>=1.0:../../net/tcptraceroute6
 DEPENDS+=	watch>=3.2.6:../../misc/watch
-DEPENDS+=	curl>=8.14.0:../../www/curl
 
 # Mainly for py-postfix-mta-sts-resolver
 DEPENDS+=	daemond>=1.0:../../sysutils/daemond
@@ -78,7 +73,6 @@ DEPENDS+=	daemond>=1.0:../../sysutils/daemond
 DEPENDS+=	oqs-provider>=0.8:../../security/oqs-provider
 
 # PACKAGE MANAGEMENT
-#
 DEPENDS+=	pkgin>=21.10.1:../../pkgtools/pkgin
 
 META_PACKAGE=	yes
