@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-mail-2.11
+DISTNAME=	gw-mail-2.12
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -10,7 +10,9 @@ LICENSE=	2-clause-bsd
 
 DEPENDS+=	gw-base>=2.0:../../zz/gw-base
 
-DEPENDS+=	gnupg2-as-gpg>=1.0:../../zz/gnupg2-as-gpg
+CONFLICTS+=	gnupg2-as-gpg-1.*
+DEPENDS+=	gnupg2>=2.5.17:../../security/gnupg2
+
 DEPENDS+=	lynx>=2.8.9:../../www/lynx
 DEPENDS+=	mutt>=2.0.7:../../mail/mutt
 DEPENDS+=	nmh>=1.8:../../mail/nmh

@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-dev-2.6
+DISTNAME=	gw-dev-2.7
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -28,7 +28,8 @@ DEPENDS+=	unidiff>=1.0:../../devel/unidiff
 DEPENDS+=	mercurial>=6.9.4:../../devel/mercurial
 DEPENDS+=	${PYPKGPREFIX}-hg-evolve>=11.1.8:../../devel/py-hg-evolve
 
-DEPENDS+=	gnupg2-as-gpg>=1.0:../../zz/gnupg2-as-gpg
+CONFLICTS+=	gnupg2-as-gpg-1.*
+DEPENDS+=	gnupg2>=2.5.17:../../security/gnupg2
 
 # PACKAGING TOOLS
 #
