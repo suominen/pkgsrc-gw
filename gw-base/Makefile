@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-3.8
+DISTNAME=	gw-base-3.9
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -65,6 +65,7 @@ DEPENDS+=	osname>=2.0:../../sysutils/osname
 #DEPENDS+=	remind>=3.2:../../time/remind
 #DEPENDS+=	tcptraceroute6>=1.0:../../net/tcptraceroute6
 DEPENDS+=	watch>=3.2.6:../../misc/watch
+DEPENDS+=	xfr>=0.9.4:../../net/xfr
 
 # Mainly for py-postfix-mta-sts-resolver
 DEPENDS+=	daemond>=1.0:../../sysutils/daemond
@@ -74,6 +75,9 @@ DEPENDS+=	oqs-provider>=0.8:../../security/oqs-provider
 
 # PACKAGE MANAGEMENT
 DEPENDS+=	pkgin>=21.10.1:../../pkgtools/pkgin
+
+# PACKAGE REPORTING
+DEPENDS+=	pkgtools/depgraph>=20260312:../../pkgtools/depgraph
 
 META_PACKAGE=	yes
 
