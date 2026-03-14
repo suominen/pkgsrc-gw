@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-mail-2.12
+DISTNAME=	gw-mail-2.13
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -15,6 +15,7 @@ DEPENDS+=	gnupg2>=2.5.17:../../security/gnupg2
 
 DEPENDS+=	lynx>=2.8.9:../../www/lynx
 DEPENDS+=	mutt>=2.0.7:../../mail/mutt
+DEPENDS+=	neomutt>=20260105:../../mail/neomutt
 DEPENDS+=	nmh>=1.8:../../mail/nmh
 DEPENDS+=	${PYPKGPREFIX}-postfix-mta-sts-resolver>=1.4.0:../../mail/py-postfix-mta-sts-resolver
 DEPENDS+=	opendkim>=2.10.3:../../mail/opendkim
