@@ -77,7 +77,7 @@ DEPENDS+=	oqs-provider>=0.8:../../security/oqs-provider
 DEPENDS+=	pkgin>=21.10.1:../../pkgtools/pkgin
 
 # PACKAGE REPORTING
-DEPENDS+=	pkgtools/depgraph>=20260312:../../pkgtools/depgraph
+DEPENDS+=	depgraph>=20260312:../../pkgtools/depgraph
 
 META_PACKAGE=	yes
 
