@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-dev-2.7
+DISTNAME=	gw-dev-2.8
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -11,8 +11,10 @@ LICENSE=	2-clause-bsd
 DEPENDS+=	gw-base>=2.0:../../zz/gw-base
 
 # DEVELOPMENT TOOLS
+DEPENDS+=	ast-grep>=0.41.1:../../devel/ast-grep
 DEPENDS+=	autoconf>=2.71:../../devel/autoconf
 DEPENDS+=	automake>=1.16:../../devel/automake
+DEPENDS+=	difftastic>=0.67.0:../../devel/difftastic
 DEPENDS+=	digest>=20190127:../../pkgtools/digest
 DEPENDS+=	gettext-m4>=0.21:../../devel/gettext-m4
 DEPENDS+=	libkver>=0.7.2:../../pkgtools/libkver
