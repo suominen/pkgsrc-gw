@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-3.9
+DISTNAME=	gw-base-3.10
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -31,6 +31,7 @@ DEPENDS+=	jq>=1.6:../../devel/jq
 DEPENDS+=	par>=1.53:../../textproc/par
 DEPENDS+=	ripgrep>=14.1.0:../../textproc/ripgrep
 DEPENDS+=	yq>=2.14:../../textproc/yq
+DEPENDS+=	zoxide>=0.9.9:../../sysutils/zoxide
 
 DEPENDS+=	brotli>=1.1.0:../../archivers/brotli
 DEPENDS+=	curl>=8.14.0:../../www/curl
@@ -45,6 +46,7 @@ DEPENDS+=	procmail>=3.22:../../mail/procmail
 
 # DEVELOPMENT TOOLS
 DEPENDS+=	git>=2.39.1:../../devel/git
+DEPENDS+=	git-delta>=0.19.2:../../textproc/git-delta
 DEPENDS+=	perl>=5.30:../../lang/perl5
 DEPENDS+=	${PYPKGPREFIX}-pip>=20:../../devel/py-pip
 DEPENDS+=	${PYPKGPREFIX}-pipx>=1.7.1:../../devel/py-pipx
