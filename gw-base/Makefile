@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-3.10
+DISTNAME=	gw-base-3.11
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -22,8 +22,10 @@ DEPENDS+=	socat>=1.7.4.4:../../net/socat
 
 DEPENDS+=	pkg_alternatives>=1.7:../../pkgtools/pkg_alternatives
 
+DEPENDS+=	bat>=0.26.1:../../textproc/bat
 DEPENDS+=	colorless>=107:../../misc/colorless
 DEPENDS+=	csvkit>=0.9.0:../../textproc/csvkit
+DEPENDS+=	fd-find>=10.4.2:../../sysutils/fd-find
 DEPENDS+=	fq>=0.15.0:../../devel/fq
 DEPENDS+=	fzf>=0.48.1:../../sysutils/fzf
 DEPENDS+=	gron>=0.7.1:../../textproc/gron
