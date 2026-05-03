@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gw-base-3.12
+DISTNAME=	gw-base-3.13
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 
@@ -32,6 +32,7 @@ DEPENDS+=	gron>=0.7.1:../../textproc/gron
 DEPENDS+=	jq>=1.6:../../devel/jq
 DEPENDS+=	par>=1.53:../../textproc/par
 DEPENDS+=	ripgrep>=14.1.0:../../textproc/ripgrep
+DEPENDS+=	sesh>=2.26.1:../../misc/sesh
 DEPENDS+=	tmuxp>=1.67:../../misc/tmuxp
 DEPENDS+=	yq>=2.14:../../textproc/yq
 DEPENDS+=	zoxide>=0.9.9:../../sysutils/zoxide
